@@ -1,7 +1,7 @@
 #include "global.h"
 #include "pokedex.h"
 #include "pokemon.h"
-#include "unk_02091278.h"
+#include "pokedex_language.h"
 #include "constants/species.h"
 #include "constants/johto_dex.h"
 

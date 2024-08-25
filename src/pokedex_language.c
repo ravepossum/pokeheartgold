@@ -1,5 +1,5 @@
 #include "global.h"
-#include "unk_02091278.h"
+#include "pokedex_language.h"
 
 static const u8 sDexCaughtLanguages[] = {
     LANGUAGE_JAPANESE,
