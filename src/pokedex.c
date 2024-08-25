@@ -423,7 +423,7 @@ static void Pokedex_SetCaughtLanguage(Pokedex *pokedex, u32 species, u32 languag
     int shift;
 
     shift = LanguageToDexFlag(language);
-    if (shift != 6) {
+    if (shift != MAX_CAUGHT_LANGUAGES) {
         pokedex->caughtLanguages[species] |= (1 << shift);
     }
 }

@@ -2588,7 +2588,7 @@ _021E6D8C:
 	add r0, r7, #0
 	bl sub_020912D0
 	add r7, r0, #0
-	bl sub_02091294
+	bl DexFlagToLanguage
 	lsl r0, r0, #0x10
 	asr r4, r0, #0x10
 	ldr r0, _021E6E38 ; =0x0000185C
@@ -4182,7 +4182,7 @@ _021E7ABE:
 	mov r4, #0
 _021E7AC4:
 	add r0, r4, #0
-	bl sub_02091294
+	bl DexFlagToLanguage
 	lsl r0, r0, #0x10
 	asr r5, r0, #0x10
 	ldr r0, _021E7B60 ; =0x0000185C
@@ -25233,7 +25233,7 @@ _021F258E:
 	sub r0, r5, r0
 	str r0, [sp, #8]
 	bl sub_020912AC
-	bl sub_02091294
+	bl DexFlagToLanguage
 	str r0, [sp, #0xc]
 	ldr r2, [sp, #0xc]
 	ldr r1, [sp]
